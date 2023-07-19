@@ -1,0 +1,41 @@
+<@@tag class="ui-card">
+	<a class="ui-card__img" href="page-catalog-product.html">
+		<img src="@@webRoot/images/@@img" alt="" />
+	</a>
+	<div class="ui-badges ui-card__badges">
+		@@badges
+	</div>
+	<div class="ui-card__art">
+		Артикул товара: @@art
+	</div>
+	<div class="ui-card__name">
+		<a href="page-catalog-product.html">@@name</a>
+	</div>
+	<div class="ui-card__bot">
+		<div class="ui-card__price">
+			<div class="ui-card__price-c">
+				@@price ₽
+			</div>
+			@@if (context.priceOld) {
+			<div class="ui-card__price-o">
+				@@priceOld ₽
+			</div>
+			}
+		</div>
+		<div class="ui-fav ui-tooltip ui-card__fav @@isFav" data-tooltip="@@if (!context.favText) {Добавить в избранное}@@if (context.favText) {@@favText}" data-tooltip-x="right" data-tooltip-y="top">
+			<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fav"></use></svg>
+		</div>
+	</div>
+	<div class="ui-card__buy">
+		<button class="ui-btn ui-btn--blue ui-card__btn" data-popup="added">
+			<span class="ui-btn__text">
+				В корзину
+			</span>
+		</button>
+		<button class="ui-btn ui-btn--border-blue ui-card__btn">
+			<span class="ui-btn__text">
+				Купить в&nbsp;1&nbsp;клик
+			</span>
+		</button>
+	</div>
+</@@tag>

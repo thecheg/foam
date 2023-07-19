@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="ru" class=" ">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+	
+	
+		<title>Корзина – Пенная насадка</title>
+	
+	
+		<meta name="keywords" content="" />
+	
+	
+	
+		<meta name="description" content="" />
+	
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./images/favicon/site.webmanifest">
+	<link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#000">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;600;700&display=swap&t=20230710174115" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap&t=20230710174115" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.min.css?t=20230710174115" />
+	<!-- front-end by https://chegdev.ru -->
+</head>
+<body class="app">
+		<header class="header">
+			<div class="header__top">
+				<div class="container">
+					<div class="header__top-block">
+						<div class="hf-btns header__top-left">
+							<div class="hf-btns__item">
+								<a class="hf-btns__link">
+									<span class="hf-btns__icon">
+										<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-location"></use></svg>
+									</span>
+									Москва
+								</a>
+							</div>
+						</div>
+						<div class="hf-btns header__top-right">
+							<div class="hf-btns__item">
+								<a class="hf-btns__link">
+									Главная
+								</a>
+							</div>
+							<div class="hf-btns__item header__top-btn header__top-btn--d">
+								<a class="hf-btns__link">
+									Каталог
+								</a>
+							</div>
+							<div class="hf-btns__item header__top-btn header__top-btn--m">
+								<a class="hf-btns__link menu-toggle catalog-toggle">
+									<span class="ui-toggle ui-toggle--c hf-btns__icon"></span>
+									Каталог
+								</a>
+							</div>
+							<div class="hf-btns__item">
+								<a class="hf-btns__link">
+									Оплата и доставка
+								</a>
+							</div>
+							<div class="hf-btns__item">
+								<a class="hf-btns__link">
+									Контакты
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__mid">
+				<div class="container">
+					<div class="header__mid-block">
+						<div class="header__mid-left">
+							<a class="ui-logo header__mid-logo">
+								<span class="ui-logo__t">
+									ПЕННАЯ - НАСАДКА
+								</span>
+								<span class="ui-logo__b">
+									пенные насадки для бесконтактных моек
+								</span>
+							</a>
+						</div>
+						<div class="header__mid-contacts">
+							<div class="ui-contact">
+								<div class="ui-contact__icon">
+									<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
+								</div>
+								<div class="ui-contact__text">
+									Пн-Пт: c 09.00 - 19.00
+								</div>
+							</div>
+							<a class="ui-contact" href="mailto:p_nasadka@mail.ru">
+								<div class="ui-contact__icon">
+									<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-letter"></use></svg>
+								</div>
+								<div class="ui-contact__text header__mid-contacts-t">
+									p_nasadka@mail.ru
+								</div>
+							</a>
+							<a class="ui-contact" href="tel:+7 (495) 128-34-04">
+								<div class="ui-contact__icon">
+									<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg>
+								</div>
+								<div class="ui-contact__text header__mid-contacts-t">
+									+7 (495) 128-34-04
+								</div>
+							</a>
+						</div>
+						<div class="header__mid-cb">
+							<button class="ui-btn ui-btn--blue header__mid-cb-btn" type="button" data-popup="callback">
+								<span class="ui-btn__text">
+									Обратный звонок
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="fixed">
+			<div class="container">
+				<div class="fixed__block">
+					<div class="fixed__left">
+						<a class="ui-logo fixed__logo">
+							<span class="ui-logo__t">
+								ПЕННАЯ - НАСАДКА
+							</span>
+							<span class="ui-logo__b">
+								пенные насадки для бесконтактных моек
+							</span>
+						</a>
+					</div>
+					<button class="fixed__toggle menu-toggle">
+						<span class="ui-toggle ui-toggle--m fixed__toggle-icon"></span>
+						<span class="fixed__toggle-text">
+							Каталог
+						</span>
+					</button>
+					<div class="fixed__search">
+						<div class="ui-search">
+							<div class="ui-search__inp">
+								<input type="text" placeholder="Поиск товаров" />
+							</div>
+							<button class="ui-search__btn">
+								<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg>
+							</button>
+						</div>
+					</div>
+					<div class="fixed__btns">
+						<a class="fixed__btn">
+							<span class="fixed__btn-icon">
+								<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cart"></use></svg>
+								<span class="fixed__btn-quantity">2</span>
+							</span>
+							<span class="fixed__btn-text">
+								Корзина
+							</span>
+						</a>
+						<a class="fixed__btn">
+							<span class="fixed__btn-icon">
+								<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fav"></use></svg>
+							</span>
+							<span class="fixed__btn-text">
+								Избранное
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="fixed-menu">
+				<div class="container">
+					<div class="fixed-menu__block">
+						<div class="fixed-menu__back">
+							
+						</div>
+						<div class="fixed-menu__text">
+							
+						</div>
+						<div class="fixed-menu__ttl">
+							Каталог
+						</div>
+						<div class="fixed-menu__close"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="search">
+			<div class="container">
+				<div class="ui-search">
+					<div class="ui-search__inp">
+						<input type="text" placeholder="Поиск товаров" />
+					</div>
+					<button class="ui-search__btn">
+						<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="container menu__block">
+				<div class="menu__left">
+					<div class="menu__left-in ui-scroll">
+						<div class="ui-sidemenu ui-sidemenu--m">
+							<ul class="ui-sidemenu__list">
+								<li class="ui-sidemenu__item" data-menu="1">
+									<a class="ui-sidemenu__link">
+										Пенные насадки и комплектующие
+									</a>
+									<span class="ui-sidemenu__arr"></span>
+								</li>
+								<li class="ui-sidemenu__item" data-menu="2">
+									<a class="ui-sidemenu__link">
+										Шланги высокого давления для минимоек и АВД
+									</a>
+									<span class="ui-sidemenu__arr"></span>
+								</li>
+								<li class="ui-sidemenu__item" data-menu="3">
+									<a class="ui-sidemenu__link">
+										Шланги прочистки канализации для минимоек и АВД
+									</a>
+									<span class="ui-sidemenu__arr"></span>
+								</li>
+								<li class="ui-sidemenu__item current" data-menu="4">
+									<a class="ui-sidemenu__link">
+										Пенные насадки и комплектующие
+									</a>
+									<span class="ui-sidemenu__arr"></span>
+								</li>
+								<li class="ui-sidemenu__item" data-menu="5">
+									<a class="ui-sidemenu__link">
+										Шланги высокого давления для минимоек и АВД
+									</a>
+									<span class="ui-sidemenu__arr"></span>
+								</li>
+								<li class="ui-sidemenu__item" data-menu="6">
+									<a class="ui-sidemenu__link">
+										Шланги прочистки канализации для минимоек и АВД
+									</a>
+									<span class="ui-sidemenu__arr"></span>
+								</li>
+								<li class="ui-sidemenu__item" data-menu="7">
+									<a class="ui-sidemenu__link">
+										Пенные насадки и комплектующие
+									</a>
+									<span class="ui-sidemenu__arr"></span>
+								</li>
+								<li class="ui-sidemenu__item" data-menu="8">
+									<a class="ui-sidemenu__link">
+										Шланги высокого давления для минимоек и АВД
+									</a>
+									<span class="ui-sidemenu__arr"></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="menu__right">
+					<div class="menu__right-in ui-scroll">
+						<div class="ui-sidemenu">
+							<ul class="ui-sidemenu__sub" data-menu="1">
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										1Пенные насадки
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенокомлекты
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенонасадки для МСО
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Адаптеры, переходники и запчасти для пенных насадок
+									</a>
+								</li>
+							</ul>
+							<ul class="ui-sidemenu__sub" data-menu="2">
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										2Пенные насадки
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенокомлекты
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенонасадки для МСО
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Адаптеры, переходники и запчасти для пенных насадок
+									</a>
+								</li>
+							</ul>
+							<ul class="ui-sidemenu__sub" data-menu="3">
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										3Пенные насадки
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенокомлекты
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенонасадки для МСО
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Адаптеры, переходники и запчасти для пенных насадок
+									</a>
+								</li>
+							</ul>
+							<ul class="ui-sidemenu__sub" data-menu="4">
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										4Пенные насадки
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink current">
+										Пенокомлекты
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенонасадки для МСО
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Адаптеры, переходники и запчасти для пенных насадок
+									</a>
+								</li>
+							</ul>
+							<ul class="ui-sidemenu__sub" data-menu="5">
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										5Пенные насадки
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенокомлекты
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенонасадки для МСО
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Адаптеры, переходники и запчасти для пенных насадок
+									</a>
+								</li>
+							</ul>
+							<ul class="ui-sidemenu__sub" data-menu="6">
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										6Пенные насадки
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенокомлекты
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенонасадки для МСО
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Адаптеры, переходники и запчасти для пенных насадок
+									</a>
+								</li>
+							</ul>
+							<ul class="ui-sidemenu__sub" data-menu="7">
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										7Пенные насадки
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенокомлекты
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенонасадки для МСО
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Адаптеры, переходники и запчасти для пенных насадок
+									</a>
+								</li>
+							</ul>
+							<ul class="ui-sidemenu__sub" data-menu="8">
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										8Пенные насадки
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенокомлекты
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Пенонасадки для МСО
+									</a>
+								</li>
+								<li class="ui-sidemenu__subitem">
+									<a class="ui-sidemenu__sublink">
+										Адаптеры, переходники и запчасти для пенных насадок
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<main class="app__content">
+		<div class="section crumbs">
+			<div class="container">
+				<div class="ui-crumbs">
+					<div class="ui-crumbs__item">
+						<a href="./">
+							Главная
+						</a>
+					</div>
+					<div class="ui-crumbs__item">
+						Контакты
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="section section--fh page contacts">
+			<header class="head">
+				<h2 class="head__title">
+					Контакты
+				</h2>
+			</header>
+			<div class="container">
+				<div class="contacts__place">
+					<div class="contacts__place-cont">
+						<div class="ui-logo contacts__place-logo">
+							<span class="ui-logo__t">
+								ПЕННАЯ - НАСАДКА
+							</span>
+							<span class="ui-logo__b">
+								пенные насадки для бесконтактных моек
+							</span>
+						</div>
+						<div class="contacts__place-descr">
+							Магазин профессиональных пенных насадок для бесконтактной мойки
+						</div>
+						<div class="ui-grid contacts__place-list">
+							<div class="ui-grid__col contacts__place-item">
+								<div class="ui-contact">
+									<div class="ui-contact__icon">
+										<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg>
+									</div>
+									<div class="ui-contact__text">
+										<a href="tel:+7 (495) 128-34-04">+7 (495) 128-34-04</a>
+									</div>
+								</div>
+							</div>
+							<div class="ui-grid__col contacts__place-item">
+								<div class="ui-contact">
+									<div class="ui-contact__icon">
+										<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-letter"></use></svg>
+									</div>
+									<div class="ui-contact__text">
+										<a href="mailto:p_nasadka@mail.ru">p_nasadka@mail.ru</a>
+									</div>
+								</div>
+							</div>
+							<div class="ui-grid__col contacts__place-item">
+								<div class="ui-contact">
+									<div class="ui-contact__icon">
+										<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-location"></use></svg>
+									</div>
+									<div class="ui-contact__text">
+										г. Москва, 8-я улица Соколиной горы, д. 18, корп. 1
+									</div>
+								</div>
+							</div>
+							<div class="ui-grid__col contacts__place-item">
+								<div class="ui-contact">
+									<div class="ui-contact__icon">
+										<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
+									</div>
+									<div class="ui-contact__text">
+										Режим работы:<br />
+										Пн-Пт: c 09.00 - 19.00<br />
+										Сб-Вс: выходной
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="contacts__place-map">
+						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaf6bccd56286e7cbf1eefcf59219649bbdca635ba0709c7276fe2e200e294c61&amp;source=constructor" frameborder="0" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section--fh about">
+			<div class="container">
+				<div class="ui-grid about__info">
+					<div class="ui-grid__col about__info-left">
+						<header class="head head--in-cont">
+							<h2 class="head__title">
+								О нас
+							</h2>
+						</header>
+						<div class="ui-text">
+							<p>
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</p>
+							<p>
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</p>
+						</div>
+					</div>
+					<div class="ui-grid__col about__info-right">
+						<div class="ui-grid about__btns">
+							<div class="ui-grid__col about__btns-item">
+								<a class="ui-more">
+									Реквизиты
+								</a>
+							</div>
+							<div class="ui-grid__col about__btns-item">
+								<a class="ui-more">
+									Покупателям
+								</a>
+							</div>
+							<div class="ui-grid__col about__btns-item">
+								<a class="ui-more">
+									Для юридических лиц
+								</a>
+							</div>
+							<div class="ui-grid__col about__btns-item">
+								<a class="ui-more">
+									Перейти в каталог
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section--fh contacts">
+			<div class="container contacts__page">
+				<div class="contacts__inner">
+					<header class="head head--in-cont">
+						<div class="ui-grid head__row">
+							<div class="ui-grid__col ui-grid__col--1of3 head__col">
+								<h2 class="head__title">
+									Связаться с нами
+								</h2>
+							</div>
+							<div class="ui-grid__col ui-grid__col--2of3 head__col">
+								<div class="ui-text head__subtitle">
+									<p>
+										Уточнить статус Вашего заказа, узнать условия сотрудничества и задать другие интересующие вопросы Вы можете любым удобным Вам способом.
+									</p>
+								</div>
+							</div>
+						</div>
+					</header>
+<form class="contacts__form">
+	<div class="ui-grid contacts__form-row">
+		<div class="ui-grid__col contacts__form-col contacts__form-col--2">
+			<div class="ui-grid contacts__form-row">
+				<div class="ui-grid__col contacts__form-col">
+					<label class="ui-input ui-input--blue">
+						<input type="text" placeholder="Ваше имя" />
+					</label>
+				</div>
+				<div class="ui-grid__col contacts__form-col">
+					<label class="ui-input ui-input--blue">
+						<input type="text" placeholder="Ваш телефон" />
+					</label>
+				</div>
+				<div class="ui-grid__col contacts__form-col">
+					<label class="ui-input ui-input--blue">
+						<input type="email" placeholder="Ваш e-mail" />
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="ui-grid__col contacts__form-col contacts__form-col--2">
+			<label class="ui-input ui-input--blue">
+				<textarea class="contacts__form-ta" placeholder="Ваше сообщение"></textarea>
+			</label>
+		</div>
+		<div class="ui-grid__col contacts__form-col">
+			<div class="contacts__form-bot">
+				<div class="contacts__form-btn">
+					<button class="ui-btn ui-btn--blue" type="submit">
+						<span class="ui-btn__text">
+							Отправить
+						</span>
+					</button>
+				</div>
+				<div class="ui-agree contacts__form-agree">
+					Мы гарантируем сохранность Ваших персональных данных.<br />
+					Нажимая на кнопку Вы подтверждаете свое согласие на обработку персональных данных
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+				</div>
+			</div>
+		</section>
+	</main>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="container">
+					<div class="footer__top-block">
+						<div class="footer__top-left">
+							<a class="ui-logo footer__logo">
+								<span class="ui-logo__t">
+									ПЕННАЯ - НАСАДКА
+								</span>
+								<span class="ui-logo__b">
+									пенные насадки для бесконтактных моек
+								</span>
+							</a>
+						</div>
+						<div class="footer__top-right">
+							<div class="ui-text footer__top-text">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enimAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__mid">
+				<div class="container">
+					<div class="footer__mid-block">
+						<div class="footer__mid-left">
+							<div class="hf-btns footer__btns">
+								<div class="hf-btns__item">
+									<a class="hf-btns__link menu-toggle catalog-toggle">
+										<span class="ui-toggle ui-toggle--c hf-btns__icon"></span>
+										Каталог
+									</a>
+								</div>
+								<div class="hf-btns__item">
+									<a class="hf-btns__link">
+										Покупателям
+									</a>
+								</div>
+								<div class="hf-btns__item">
+									<a class="hf-btns__link">
+										Контакты
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer__mid-right">
+							<div class="ui-grid footer__contacts">
+								<div class="ui-grid__col footer__contacts-col">
+									<div class="footer__contacts-ttl">
+										Контактые данные:
+									</div>
+									<div class="ui-contact">
+										<div class="ui-contact__icon">
+											<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg>
+										</div>
+										<div class="ui-contact__text">
+											<a href="tel:+7 (495) 128-34-04">+7 (495) 128-34-04</a>
+										</div>
+									</div>
+									<div class="ui-contact">
+										<div class="ui-contact__icon">
+											<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-letter"></use></svg>
+										</div>
+										<div class="ui-contact__text">
+											<a href="mailto:p_nasadka@mail.ru">p_nasadka@mail.ru</a>
+										</div>
+									</div>
+								</div>
+								<div class="ui-grid__col footer__contacts-col">
+									<div class="footer__contacts-ttl">
+										Режим работы:
+									</div>
+									<div class="ui-contact">
+										<div class="ui-contact__icon">
+											<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
+										</div>
+										<div class="ui-contact__text">
+											<p>
+												Пн-Пт: c 09.00 - 19.00
+											</p>
+											<p>
+												Сб-Вс: выходной
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="ui-grid__col footer__contacts-col">
+									<div class="footer__contacts-ttl">
+										Адрес:
+									</div>
+									<div class="ui-contact">
+										<div class="ui-contact__icon">
+											<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-location"></use></svg>
+										</div>
+										<div class="ui-contact__text">
+											г. Москва, 8-я улица Соколиной горы, д.&nbsp;18, корп.&nbsp;1
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bot">
+				<div class="container">
+					<div class="footer__bot-links">
+						<div class="footer__bot-links-item">
+							<a>Политика конфиденциальности</a>
+						</div>
+						<div class="footer__bot-links-item">
+							<a>Политика обработки персональных данных</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	<div class="popups-overlay"></div>
+	<div class="popup" id="added">
+		<div class="popup__content added popup__close-container">
+			<div class="added__inner">
+				<div class="head head--in-cont added__head">
+					<div class="head__title">
+						Товар добавлен в корзину
+					</div>
+				</div>
+				<div class="added__product">
+					<div class="ui-cart ui-cart--a">
+						<div class="ui-cart__img">
+							<img src="./images/card1.png" alt="" />
+						</div>
+						<div class="ui-cart__info">
+							<div class="ui-cart__art">
+								Артикул товара: DT-0301
+							</div>
+							<div class="ui-cart__name">
+								<a title="Бутылка с печатью Detail">Бутылка с печатью Detail</a>
+							</div>
+						</div>
+						<div class="ui-cart__quantity">
+							<div class="ui-quantity ui-quantity--c">
+								<div class="ui-quantity__ctrl" data-quantity="minus"></div>
+								<div class="ui-quantity__inp">
+									<input type="text" value="1" />
+								</div>
+								<div class="ui-quantity__ctrl" data-quantity="plus"></div>
+							</div>
+						</div>
+						<div class="ui-cart__price">
+							<div class="ui-cart__price-c">
+								130 ₽
+							</div>
+						</div>
+						<div class="ui-cart__delete">
+							<div class="ui-delete ui-tooltip" data-tooltip="Удалить товар" data-tooltip-x="right" data-tooltip-y="top">
+								<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-delete"></use></svg>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="added__bot">
+					<div class="added__bot-item added__total">
+						В корзине 2 товара на общую сумму 2 100
+					</div>
+					<div class="added__bot-item added__btns">
+						<div class="added__btns-item">
+							<button class="ui-btn ui-btn--fw ui-btn--border-blue" data-popup-close>
+								<span class="ui-btn__text">
+									Продолжить покупки
+								</span>
+							</button>
+						</div>
+						<div class="added__btns-item">
+							<a class="ui-btn ui-btn--fw ui-btn--blue" href="page-cart.html">
+								<span class="ui-btn__text">
+									Перейти в корзину
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup" id="question" data-close="ui-crossbtn--w">
+		<div class="popup__content request popup__close-container">
+			<div class="request__inner">
+				<div class="head head--in-cont request__head">
+					<div class="head__title">
+						Появились вопросы?
+					</div>
+					<div class="ui-text request__head-subttl">
+						Оставьте Ваше сообщение и в ближайшее время наши специалисты свяжутся с Вами и ответят на все интересующие вопросы
+					</div>
+				</div>
+				<form class="request__form">
+					<div class="request__form-field">
+						<label class="ui-input ui-input--h2 ui-input--grey">
+							<input type="text" placeholder="Ваше имя" />
+						</label>
+					</div>
+					<div class="request__form-field">
+						<label class="ui-input ui-input--h2 ui-input--grey">
+							<input type="text" placeholder="Ваш телефон" />
+						</label>
+					</div>
+					<div class="request__form-field">
+						<label class="ui-input ui-input--h2 ui-input--grey">
+							<input type="email" placeholder="Ваш e-mail" />
+						</label>
+					</div>
+					<div class="request__form-field">
+						<div class="ui-agree">
+							Мы гарантируем сохранность Ваших персональных данных.<br >
+							Нажимая на кнопку Вы подтверждаете свое согласие на обработку персональных данных
+						</div>
+					</div>
+					<div class="request__form-field">
+						<div class="request__form-btn">
+							<button class="ui-btn ui-btn--border-white" type="submit">
+								<span class="ui-btn__text">
+									Отправить
+								</span>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="popup" id="callback" data-close="ui-crossbtn--w">
+		<div class="popup__content request popup__close-container">
+			<div class="request__inner">
+				<div class="head head--in-cont request__head">
+					<div class="head__title">
+						Обратный звонок
+					</div>
+					<div class="ui-text request__head-subttl">
+						В ближайшее время наши специалисты свяжутся с Вами и ответят на все интересующие вопросы
+					</div>
+				</div>
+				<form class="request__form">
+					<div class="request__form-field">
+						<label class="ui-input ui-input--h2 ui-input--grey">
+							<input type="text" placeholder="Ваше имя" />
+						</label>
+					</div>
+					<div class="request__form-field">
+						<label class="ui-input ui-input--h2 ui-input--grey">
+							<input type="text" placeholder="Ваш телефон" />
+						</label>
+					</div>
+					<div class="request__form-field">
+						<label class="ui-input ui-input--h2 ui-input--grey">
+							<input type="email" placeholder="Ваш e-mail" />
+						</label>
+					</div>
+					<div class="request__form-field">
+						<div class="ui-agree">
+							Мы гарантируем сохранность Ваших персональных данных.<br >
+							Нажимая на кнопку Вы подтверждаете свое согласие на обработку персональных данных
+						</div>
+					</div>
+					<div class="request__form-field">
+						<div class="request__form-btn">
+							<button class="ui-btn ui-btn--border-white" type="submit">
+								<span class="ui-btn__text">
+									Отправить
+								</span>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-sprite">
+		<symbol id="logo" viewBox="0 0 20 20">
+			
+		</symbol>
+		<symbol id="icon-feat1" viewBox="0 0 80 80">
+			<path d="M53.055.324c-1.328.664-1.625 1.481-1.641 4.614v2.3l-1.204.749c-5.002 3.167-8.535 8.787-9.504 15.156-.36 2.299-.25 6.08.218 8.157.188.783.329 1.447.329 1.498 0 .035-6.77.069-15.023.069-11.318 0-15.195.05-15.664.204-.813.272-1.61 1.14-1.845 2.01l-.187.68h-2.33c-2.266 0-2.344.017-2.704.426-.5.528-.5 1.175 0 1.703.36.409.438.426 2.736.426H8.58l-.032 6.164-.046 6.182-4.018.085c-3.783.085-4.033.102-4.252.426-.297.426-.313 1.09-.031 1.481.39.563 1.016.648 4.72.648h3.659v1.77c0 1.772 0 1.789-.422 2.01-.626.324-.907 1.022-.641 1.618.11.255.406.579.64.698l.423.221v4.82c0 4.734 0 4.836.36 5.398.578.954 1.187 1.175 3.204 1.175h1.75v.852h-1.969c-1.079 0-2.095.068-2.251.17-.672.391-.625 1.975.078 2.282.14.05 1.47.102 2.955.102 2.5 0 2.735-.034 3.126-.358.375-.323.407-.442.407-1.703v-1.345h.547c.469 0 .547.068.625.46.313 1.6.47 2.129.907 3.116.594 1.294 2.048 3.049 3.189 3.849 1.016.715 2.798 1.38 4.127 1.532 1.954.222 5.096-.8 5.596-1.822.313-.596 0-1.413-.625-1.686-.406-.187-.578-.153-1.407.256-2.61 1.277-5.377.8-7.378-1.26-3.47-3.576-2.564-9.588 1.766-11.836.844-.425 1.25-.528 2.47-.579 1.22-.068 1.61-.017 2.423.307 2.673 1.056 4.283 3.406 4.44 6.437.078 1.294.03 1.652-.329 2.793-.375 1.175-.406 1.38-.218 1.788.234.545.844.834 1.438.664.5-.136.922-1.039 1.313-2.844l.25-1.175h20.979l.203 1.107c.766 4.206 4.143 7.459 8.145 7.834 4.346.408 8.55-3.049 9.442-7.766l.203-1.09 1.626-.102c1.876-.102 2.564-.392 3.283-1.328.25-.34.531-.903.625-1.26.094-.392.14-2.98.11-6.812l-.047-6.182-.391-.8c-.22-.426-2.158-2.895-4.33-5.466l-3.94-4.666.891-.733c2.267-1.856 4.643-5.04 5.878-7.884 2.532-5.79 2.595-12.534.172-18.273-.39-.936-.61-1.26-.907-1.328-.625-.187-1.078-.034-1.407.46-.36.528-.36.562.579 3.031 1.266 3.389 1.516 7.8.64 11.478-.656 2.741-2.079 5.67-3.751 7.748-1.048 1.311-3.283 3.423-3.611 3.423-.11 0-1.72-1.822-3.596-4.053-1.86-2.214-3.642-4.24-3.94-4.513-1.14-.954-1.375-.97-10.285-.97H43.77l-.313-1.09c-.5-1.771-.688-3.696-.594-6.13.188-4.803 1.829-8.924 4.956-12.347 4.283-4.7 9.832-6.59 15.835-5.364 3.205.664 6.144 2.367 8.88 5.16.953.953 1.297 1.209 1.688 1.209.625 0 1.11-.528 1.11-1.21 0-.936-2.642-3.559-5.3-5.262l-1.094-.68-.047-2.691c-.047-2.504-.078-2.708-.422-3.253-.203-.306-.656-.715-1.016-.885C66.859.034 66.312 0 60.246 0c-6.034 0-6.612.034-7.19.324Zm13.491 4.035.047 1.737-1.422-.408c-2.11-.596-4.596-.818-6.66-.596-1.516.17-3.72.647-4.47.953-.25.12-.282-.017-.282-1.413 0-.851.047-1.669.094-1.805.093-.256.75-.273 6.378-.239l6.268.052.047 1.72Zm-21.854 44.6v13.538H31.998l-.89-.596c-1.486-1.004-2.424-1.31-4.221-1.413-2.267-.12-4.19.426-5.581 1.584l-.516.425h-9.864v-3.065h5.612l.312-.443c.422-.596.407-.97-.047-1.55l-.375-.476-2.751-.051-2.751-.051v-3.542l2.75-.051 2.752-.051.375-.477c.454-.58.47-.954.047-1.55l-.312-.443h-5.612v-7.459c0-5.568.046-7.51.187-7.663.14-.153 4.112-.204 16.883-.204h16.696v13.538Zm7.347-5.739c0 7.749 0 7.8.36 8.549.625 1.345.938 1.448 4.674 1.448 3.127 0 3.252-.017 3.58-.375.422-.46.453-1.277.062-1.754-.25-.307-.516-.34-3.267-.375l-2.986-.05-.047-7.63-.03-7.612h2.766c2.33 0 2.877.051 3.33.306.516.273 12.662 14.56 12.662 14.884 0 .068-2.032.136-4.533.136-4.33 0-4.55.017-4.846.34-.391.427-.407 1.21-.016 1.72l.297.41 5.769.085 5.752.085.876 1.021c1.11 1.295 1.235 1.55 1.235 2.708v.954h-.673c-.86 0-1.36.46-1.36 1.277 0 .75.594 1.277 1.423 1.277h.61v1.874H70.986l-.813-.597c-2.767-2.026-7.425-1.907-9.99.273-.343.306-.765.324-6.752.324h-6.394V35.42h5.002v7.8Zm16.149 20.435c3.314 1.686 4.768 6.097 3.173 9.656-1.282 2.827-4.127 4.496-6.862 4.036-2.22-.375-4.19-1.941-5.144-4.104-.953-2.163-.75-5.109.5-7.101.845-1.311 2.252-2.435 3.752-2.98.22-.086 1.095-.12 1.954-.103 1.392.035 1.689.103 2.627.596Zm-49.602 1.482c0 .051-.172.46-.391.92-.204.46-.454 1.175-.563 1.617l-.172.784h-6.534v-3.406h3.83c2.11 0 3.83.034 3.83.085Zm26.106 1.618v1.703H35.187l-.172-.75c-.14-.596-.531-1.686-.922-2.537-.031-.068 2.345-.12 5.268-.12h5.331v1.704Zm12.506-.664c-.25.579-.5 1.345-.547 1.703l-.11.664h-9.504v-3.406h10.615l-.454 1.039Zm20.479.323c0 1.89-.157 2.044-2.017 2.044h-1.407l-.25-.971c-.14-.545-.39-1.26-.563-1.618-.156-.34-.297-.68-.297-.732 0-.051 1.016-.085 2.267-.085h2.267v1.362Z"/><path d="M25.023 39.125c-.787.282-1.318.68-2.15 1.644-1.319 1.512-1.35 1.445 1.56 4.584l2.454 2.657-2.454 2.575c-2.788 2.956-2.818 3.023-1.879 4.252 1.242 1.644 2.97 2.441 4.484 2.076.44-.1 1-.316 1.273-.465.636-.382 5.848-5.863 6.257-6.594.197-.349.363-.996.409-1.578.136-1.627-.243-2.259-3.409-5.597-1.5-1.578-3.015-3.023-3.378-3.239-.712-.398-2.44-.58-3.167-.315Zm2.334 2.657c.227.166 1.545 1.528 2.908 3.023 2.454 2.674 2.651 2.973 2.394 3.687-.046.133-1.303 1.512-2.788 3.073-2.15 2.242-2.802 2.823-3.196 2.89-.606.1-1.288-.084-1.652-.449-.227-.232-.06-.448 2.152-2.856 3.181-3.472 3.181-3.007-.06-6.411l-2.455-2.575.53-.349c.651-.431 1.59-.448 2.166-.033Z"/><path d="M13.293 46.4c-.395.54-.395 1.66.029 2.2.293.36.512.4 2.62.4 2.092 0 2.326-.04 2.677-.42.279-.3.381-.6.381-1.08 0-.48-.102-.78-.38-1.08-.352-.38-.586-.42-2.708-.42-2.136 0-2.356.04-2.62.4Z"/><path d="M64.166 66.321c-2.254 1.202-2.869 4.207-1.273 6.277.731.935 1.536 1.385 2.502 1.402 1.493 0 2.692-.818 3.307-2.254.468-1.118.38-2.737-.234-3.855-.893-1.653-2.824-2.354-4.302-1.57Zm1.946 2.37c.497.301.673.652.688 1.353 0 1.385-1.332 1.953-2.225.951-.38-.45-.439-.6-.365-1.135.16-1.085 1.097-1.67 1.902-1.168Z"/><path d="M59.293 10.38c-.253.322-.293.564-.293 1.626 0 1.11.04 1.27.347 1.657.266.322.413.386.76.306.693-.161.893-.596.893-1.947 0-.933-.053-1.24-.28-1.593-.36-.547-1.027-.58-1.427-.048Z"/><path d="M19.331 13.4c-.479.6-.43 1.66.096 2.18.415.42.543.42 10.935.42 7.36 0 10.616-.06 10.888-.22.399-.22.75-.94.75-1.5 0-.16-.176-.52-.4-.78l-.382-.5H30.426c-10.568 0-10.775 0-11.095.4Z"/><path d="m59.39 16.366-.39.453v5.25c0 5.007.015 5.25.3 5.582.27.314.495.349 2.702.349 2.206 0 2.431-.035 2.702-.349.405-.47.39-1.413-.015-1.849-.256-.279-.6-.349-1.877-.384l-1.56-.07V21.11c0-4.71-.03-4.867-1.006-5.076-.39-.087-.556-.017-.856.332Z"/><path d="M14.357 20.235c-.449.455-.48.937-.062 1.365l.387.4h21.741l.294-.331c.387-.414.372-1.048-.015-1.393C36.392 20 36.19 20 25.506 20c-10.189 0-10.917.014-11.149.235Z"/><path d="M45.867 25.135c-.418.223-.867.995-.867 1.463 0 .183.144.569.337.874.305.487.417.528 1.685.528 1.14 0 1.396-.061 1.669-.406.401-.509.417-1.443.016-2.053-.257-.406-.465-.488-1.396-.528-.61-.04-1.268.02-1.444.122Z"/><path d="M72.826 25.089c-.562.264-.826.753-.826 1.486 0 1.18.347 1.425 2.016 1.425 1.586 0 1.966-.265 1.983-1.425.033-1.059-.496-1.507-1.801-1.568-.628-.02-1.24 0-1.372.082Z"/><path d="M16.444 25.42c-.566.54-.6 1.54-.05 2.14.366.42.532.44 3.595.44 3.162 0 3.195 0 3.595-.5.233-.26.416-.72.416-1s-.183-.74-.416-1c-.4-.5-.433-.5-3.545-.5-2.93 0-3.18.02-3.595.42Z"/><path d="M26.4 25.5c-.224.26-.4.72-.4 1s.176.74.4 1l.382.5h5.684c3.704 0 5.795-.08 6.003-.22.766-.5.686-2.2-.128-2.6-.208-.1-2.906-.18-5.971-.18h-5.588l-.383.5Z"/><path d="M.747 43.236c-.832.447-.999 1.585-.35 2.317.367.427.55.447 3.162.447 2.563 0 2.813-.04 3.112-.407.45-.548.433-1.646-.016-2.154-.3-.346-.666-.386-2.88-.427-1.863-.04-2.645.02-3.028.224Z"/><path d="M.725 56.206c-.743.422-.958 1.568-.443 2.352.272.422.429.442 2.216.442 1.787 0 1.944-.02 2.216-.442.529-.804.3-1.95-.486-2.372-.486-.261-3.031-.241-3.503.02Z"/><path d="M25.315 66.204c-1.406.6-2.315 2.051-2.315 3.719-.014 1.284.352 2.25 1.158 3.051 1.392 1.384 3.414 1.368 4.703-.05 1.392-1.5 1.524-3.852.308-5.503-.88-1.2-2.593-1.75-3.854-1.217Zm1.73 2.435c.85.367 1.01 1.834.278 2.501-.718.634-1.685.367-2.037-.584-.469-1.284.586-2.434 1.758-1.917Z"/>
+		</symbol>
+		<symbol id="icon-feat2" viewBox="0 0 80 80">
+			<path d="M9.136.054c-4.537.884-7.84 4.92-7.84 9.557 0 2.185 1.318 5.671 3.303 8.773l.85 1.335-.734 1.334c-5.02 9.24-6.104 20.848-2.902 30.872 2.035 6.372 5.27 11.709 9.908 16.329 15.646 15.661 40.899 15.661 56.545 0 9.857-9.857 13.844-23.934 10.658-37.527l-.45-1.885.517-1.818c1.1-3.77 1.284-7.422.55-10.724C77.306 6.376 68.482-.43 58.425.02c-2.219.1-4.637.567-6.322 1.234l-.8.317-1.902-.467C45.93.255 44.08.055 39.993.055c-4.103 0-5.955.2-9.474 1.067-3.403.834-7.189 2.302-9.841 3.803-.684.383-1.301.7-1.384.7-.084 0-.334-.367-.567-.817-.217-.45-.818-1.268-1.335-1.818C15.624 1.089 13.59.138 11.054.038 10.236.004 9.369.02 9.136.054Zm4.253 3.22c2.385 1.184 3.92 3.602 3.92 6.204 0 1.968-1.318 5.154-3.436 8.256-1.235 1.835-3.02 4.07-3.236 4.07-.084 0-.6-.55-1.151-1.218C6.2 16.55 3.98 12.063 3.965 9.461c0-2.985 2.118-5.804 4.987-6.621 1.284-.367 3.203-.167 4.437.433ZM45.58 3.04c1.017.167 1.885.334 1.951.4.067.067-.366.484-.967.934-2.235 1.685-4.887 5.02-6.055 7.622-2.118 4.737-2.418 9.74-.917 14.945 1.568 5.37 4.97 11.591 10.191 18.546 3.336 4.454 8.424 10.258 9.14 10.441.785.2 1.202-.1 3.053-2.151 5.788-6.405 10.275-12.593 13.561-18.597.8-1.468 1.15-1.968 1.218-1.751.583 1.934.7 8.94.216 11.975-.617 3.753-1.634 7.105-3.169 10.458l-.65 1.45-5.455.05c-5.27.05-5.454.067-6.138.434-1.684.884-2.585 2.219-2.869 4.22-.3 2.118-.7 2.369-4.103 2.485-2.819.117-3.37.284-4.52 1.451-3.002 3.07-.8 8.223 3.503 8.223.684 0 1.1.067 1 .15-.6.567-6.021 2.118-9.157 2.619-2.285.383-7.723.417-10.208.083-1.885-.25-2.002-.334-1.401-1.234.617-.934.9-1.034 3.603-1.134 2.919-.1 3.402-.267 4.654-1.668 2.185-2.419 1.467-6.221-1.485-7.79l-.834-.45-6.672-.083c-6.021-.083-6.722-.117-7.105-.384-.534-.367-.935-1.267-1.051-2.401-.167-1.735-1.151-3.22-2.67-4.02l-.85-.45-7.272-.05-7.273-.05-.216-.45c-.367-.768-1.502-3.386-1.502-3.453 0-.033 1.635-.083 3.637-.117 3.586-.05 3.636-.05 4.57-.517 1.785-.884 2.802-2.502 3.052-4.87.15-1.418.384-2.018 1.068-2.669l.534-.5 4.37-.084c4.72-.1 5.037-.15 6.171-1.1 1.268-1.068 2.119-2.902 2.119-4.554 0-1.75-1.035-3.87-2.336-4.77-1.334-.917-1.25-.917-13.627-.917-9.007 0-11.392-.05-11.392-.217 0-.367.8-3.52 1.25-4.853.518-1.602 1.418-3.787 2.119-5.154l.5-1.018.534.584c2.335 2.635 2.352 2.652 2.936 2.652.634 0 1.167-.5 3.286-3.136 3.803-4.72 6.054-9.423 6.054-12.675V8.46l.801-.517c1.151-.751 4.554-2.369 6.388-3.053 2.736-1 6.289-1.801 9.741-2.168 1.485-.15 6.906.05 8.674.317Zm18.148.15a18 18 0 0 1 11.809 9.69c2.819 5.921 2.352 11.509-1.601 19.515-2.235 4.503-5.104 8.873-9.174 13.96-2.102 2.635-5.171 6.188-5.421 6.271-.184.067-3.336-3.553-5.521-6.305-6.405-8.089-10.292-14.927-11.86-20.848-.7-2.702-.817-5.821-.3-8.323.767-3.77 2.169-6.354 4.92-9.123 3.003-3.019 6.039-4.57 10.192-5.237 1.718-.267 5.12-.067 6.956.4Zm-37.08 33.157c1.251.851 1.685 2.736.951 4.137-.75 1.417-.734 1.4-5.671 1.5-4.237.084-4.403.101-5.17.501-.985.5-2.036 1.601-2.47 2.586-.183.416-.4 1.4-.5 2.201-.2 1.551-.317 1.901-.884 2.519-.734.817-1 .867-5.02.867-2.069 0-3.753-.05-3.753-.134 0-.066-.167-.683-.35-1.367-.868-3.253-1.302-7.722-1.068-11.225l.117-1.952h23.268l.55.367Zm-5.254 24.151c.634.6.868 1.118.968 2.269.1 1.25.7 2.468 1.618 3.302 1.334 1.2 1.167 1.168 8.623 1.268l6.689.083.45.417c.934.867 1.15 1.885.65 2.952-.483 1-.85 1.118-3.569 1.234-2.051.084-2.535.15-3.22.467-1.017.5-2.184 1.802-2.534 2.853-.317.95-.15.95-2.586.166-7.673-2.468-14.795-7.755-19.182-14.26l-.85-1.268 6.255.05 6.238.05.45.417Zm49.873-.05c-2.269 3.52-6.055 7.422-9.825 10.124l-1.317.934h-3.57c-3.953 0-4.303-.066-4.887-1.05-.4-.634-.417-1.251-.1-2.035.417-1.001.867-1.151 3.603-1.268 2.735-.1 3.453-.317 4.637-1.4.867-.768 1.368-1.802 1.534-3.187.15-1.217.45-1.767 1.218-2.234.484-.3.867-.334 4.77-.334h4.22l-.283.45Z"/><path d="M9.658 5.216C8.84 5.486 7.44 6.94 7.19 7.8c-.416 1.418-.15 2.701.767 3.782C8.808 12.595 9.691 13 10.991 13c1.3 0 2.183-.405 3.033-1.418 1.4-1.638 1.283-3.749-.283-5.319-1.167-1.198-2.533-1.536-4.083-1.047Zm2.25 2.905c.833.827.25 2.279-.917 2.279-.683 0-1.333-.659-1.333-1.35 0-.693.65-1.352 1.333-1.352.317 0 .667.152.917.423Z"/><path d="M15 25.5V27h3v-3h-3v1.5Z"/><path d="M20 25.5V27h3v-3h-3v1.5Z"/><path d="M26 25.5V27h3v-3h-3v1.5Z"/><path d="M31.359 25.178c-.072.223-.359 1.886-.359 2.08 0 .059.115.118.258.118.13 0 .474.149.747.312l.488.312.76-.861.747-.877-.388-.326c-.358-.312-1.736-.936-2.052-.936-.072 0-.172.09-.201.178Z"/><path d="m33.712 28.131-.712.075V31h3v-3l-.788.038c-.45.018-1.125.056-1.5.093Z"/><path d="M33 35.5V37h3v-3h-3v1.5Z"/><path d="M33.131 39.131c-.075.056-.131.731-.131 1.5V42h3v-3h-1.369c-.769 0-1.444.056-1.5.131Z"/><path d="M33.131 44.131c-.075.056-.131.731-.131 1.5V47h3v-3h-1.369c-.769 0-1.444.056-1.5.131Z"/><path d="M33.041 50.272c-.11.29.018 2.584.164 2.72.054.035.727-.05 1.49-.203 1.054-.221 1.381-.358 1.29-.528-.054-.136-.09-.697-.09-1.258V50H34.53c-1.072 0-1.4.051-1.49.272Z"/><path d="M35.583 54.868c-.698.967-.698.967-.372 1.248.31.25 2.402.982 2.526.873.015-.031.093-.608.154-1.263l.109-1.2-.434-.11a5.757 5.757 0 0 1-.868-.312c-.403-.203-.418-.187-1.115.764Z"/><path d="M41 55.5V57h3v-3h-3v1.5Z"/><path d="M46 55.5V57h3v-3h-3v1.5Z"/><path d="M52 55.5V57h3v-3h-3v1.5Z"/><path d="M56.606 7.23c-4.999 1.112-9.005 5.037-10.3 10.091-.405 1.584-.405 4.802-.018 6.301 1.145 4.262 3.686 7.362 7.54 9.182 2.004.96 3.131 1.196 5.707 1.196 1.851 0 2.508-.067 3.585-.388 3.736-1.078 6.766-3.605 8.466-7.025C72.613 24.481 73 22.864 73 20.522c0-6.065-3.804-11.203-9.678-13.056-1.566-.506-5.016-.624-6.716-.236Zm5.453 2.695c1.953.455 3.45 1.331 5.05 2.932 2.255 2.24 3.198 4.515 3.198 7.665 0 2.494-.673 4.532-2.12 6.503-1.448 1.971-3.923 3.572-6.397 4.128-1.498.32-3.989.253-5.302-.169-3.013-.943-5.335-2.931-6.732-5.745-2.593-5.239-.489-11.607 4.746-14.404 2.07-1.095 5.167-1.482 7.557-.91Z"/><path d="M55.31 16.519c-2.122 1.381-3.98 2.697-4.129 2.925-.315.471-.215 1.072.266 1.544.398.39.995.422 1.658.08l.497-.26v2.698c0 2.649 0 2.698.415 3.088l.398.406H64.728l.398-.406c.414-.39.414-.439.414-3.088V20.81l.365.243c.978.683 2.189.017 2.09-1.137-.05-.634-.067-.634-4.08-3.282C61.71 15.186 59.721 14 59.522 14c-.2 0-2.106 1.137-4.212 2.519Zm6.102 1.576 1.475.991V24.4h-6.632v-5.362l1.625-1.057c.879-.585 1.708-1.024 1.824-.975.133.049.895.537 1.708 1.089Z"/>
+		</symbol>
+		<symbol id="icon-feat3" viewBox="0 0 80 80">
+			<path d="M17.43 9.828C8.094 15.224.345 19.776.224 19.93.052 20.172 0 24.276 0 40.017c0 18.586.017 19.793.31 20.12C.778 60.673 34.43 80 34.879 80c.225 0 3.28-1.672 6.8-3.69l6.368-3.69 1.432 1.518c1.795 1.896 3.349 3.069 5.42 4.034 6.8 3.225 14.669 1.88 19.932-3.413 1.605-1.621 2.606-3.035 3.538-5 3.47-7.414 1.26-16.431-5.229-21.31-.76-.587-1.846-1.277-2.399-1.57l-1.018-.5V33.293c0-12.207-.017-13.103-.293-13.43C68.945 19.31 35.309 0 34.844 0c-.225.017-8.06 4.431-17.414 9.828Zm32.756 1.982c8.37 4.828 15.222 8.828 15.222 8.88 0 .103-14.79 8.672-15.118 8.758-.26.07-28.58-18.776-28.459-18.914.19-.19 12.944-7.568 13.047-7.534.052 0 6.938 3.966 15.308 8.81ZM33.187 21.57c7.697 5.138 14.065 9.38 14.152 9.448.069.07-2.71 1.759-6.179 3.759l-6.299 3.638-4.97-2.88c-2.727-1.569-9.596-5.534-15.273-8.81-5.661-3.276-10.304-5.983-10.304-6.034 0-.138 14.376-8.431 14.635-8.431.104-.018 6.524 4.19 14.238 9.31ZM19.122 32.5l14.358 8.276V58.5c0 9.759-.051 17.69-.12 17.655-.087-.034-1.416-.81-2.986-1.724-8.577-4.948-11.563-6.672-19.208-11.069l-8.387-4.828L2.76 40.81V23.086l1.001.57c.552.31 7.473 4.292 15.36 8.844Zm47.77 12.793c-.052.052-.794-.034-1.674-.19-4.884-.844-9.89.5-13.841 3.69-2.796 2.259-4.97 5.655-5.937 9.224-.397 1.5-.449 2.07-.466 4.31 0 2.863.207 3.983 1.14 6.432.293.775.5 1.448.465 1.482-.052.052-6.006 3.5-10.2 5.914-.086.035-.137-7.896-.137-17.655l.017-17.724 6.161-3.57 6.161-3.568.086 5.707.087 5.69.414.327a1.339 1.339 0 0 0 1.83-.103l.43-.414V31.983l7.732-4.448 7.715-4.432.051 11.07c.017 6.068 0 11.086-.034 11.12Zm-2.175 2.466c5.764.913 10.269 4.896 12.029 10.638.397 1.344.449 1.793.449 4.017s-.052 2.672-.466 4.052c-1.536 5.051-5.143 8.655-10.2 10.19-1.38.413-1.829.465-4.055.465-2.227 0-2.675-.052-4.021-.449-9.182-2.793-13.462-12.758-9.078-21.155C52.24 50 58.59 46.793 64.717 47.76Z"/><path d="M69.9 54.211c-.137.123-2.058 2.673-4.255 5.68-2.214 2.99-4.17 5.664-4.393 5.928l-.36.457-2.283-2.744c-2.42-2.954-2.951-3.376-3.74-2.99-.584.3-.979 1.02-.842 1.566.155.563 5.732 7.369 6.35 7.72.412.23.515.23.944 0 .257-.158 2.556-3.095 5.096-6.524 2.557-3.447 4.84-6.508 5.114-6.824.892-1.09.446-2.48-.79-2.48-.308 0-.686.105-.84.211Z"/>
+		</symbol>
+		<symbol id="icon-feat4" viewBox="0 0 80 80">
+			<path d="M.449.445 0 .872V24.76l.449.427.43.445h4.829c5.635 0 5.6.018 5.779-1.584l.09-.908 9.135 6.23c9.818 6.693 10.464 7.049 13.21 7.476.951.142 5.187.178 14.628.142 13.264-.053 13.282-.053 14.125-.445 1.095-.498 2.28-1.69 2.854-2.812.628-1.282.628-3.524 0-4.806-.575-1.121-1.777-2.332-2.854-2.812-.843-.392-.933-.392-13.587-.445-12.671-.054-12.725-.054-13.138-.427l-.395-.374 1.023-.48c2.567-1.211 3.734-4.273 2.71-7.067-.358-.944-.843-1.477-5.976-6.604-3.07-3.08-6.049-5.927-6.623-6.372-1.885-1.406-2.477-1.495-9.297-1.495h-5.905v-.98c0-.818-.072-1.067-.449-1.423L10.608 0H.878L.45.445Zm8.166 12.37v9.968H2.872V2.848h5.743v9.968Zm15.615-6.71c.736.392 11.918 11.374 12.312 12.086.324.623.324 1.798-.017 2.439-.377.73-1.257 1.406-1.993 1.548-1.4.25-1.884-.071-5.743-3.862-3.177-3.133-3.662-3.542-4.182-3.542-.664 0-1.454.676-1.454 1.246 0 .213.126.605.27.872.25.48 10.93 10.964 11.54 11.32.197.107 5.133.214 13.353.267 12.816.089 13.049.089 13.533.463.952.694 1.239 1.264 1.239 2.385 0 1.121-.287 1.69-1.239 2.385-.484.374-.628.374-14.16.374H34.011l-1.257-.427c-1.328-.463-1.471-.552-14.448-9.363l-6.802-4.628-.018-6.995V5.678l6.066.053c5.474.054 6.103.09 6.677.374Z"/><path d="M4.465 7.469c-.45.45-.582 1.068-.357 1.687.131.338 1.033.844 1.484.844C6.08 10 7 8.969 7 8.406 7 7.731 6.23 7 5.498 7c-.357 0-.752.169-1.033.469Z"/><path d="M40.446.45 40 .88v21.24l.446.43.429.45h38.25l.429-.45.446-.43V.88l-.446-.43-.429-.45h-38.25l-.429.45ZM77.143 11.5v8.625H42.857V2.875h34.286V11.5Z"/><path d="M49.353 5.438c-.29.262-.453.63-.453.962 0 .332-.163.7-.453.962-.272.28-.653.438-.997.438s-.725.157-.997.438C46 8.658 46 8.693 46 12s0 3.342.453 3.762c.272.28.653.438.997.438.743 0 1.45.683 1.45 1.4 0 .332.163.7.453.962l.435.438h21.424l.435-.438c.29-.262.453-.63.453-.962 0-.718.707-1.4 1.45-1.4.344 0 .725-.157.997-.438C75 15.342 75 15.307 75 12s0-3.342-.453-3.762a1.436 1.436 0 0 0-.997-.438c-.743 0-1.45-.683-1.45-1.4 0-.333-.163-.7-.453-.963L71.212 5H49.788l-.435.438Zm20.21 2.642c0 .35 1.885 2.17 2.247 2.17.254 0 .29.28.29 1.75s-.036 1.75-.29 1.75c-.362 0-2.248 1.82-2.248 2.17 0 .245-.96.28-9.062.28s-9.063-.035-9.063-.28c0-.35-1.884-2.17-2.247-2.17-.254 0-.29-.28-.29-1.75s.036-1.75.29-1.75c.145 0 .725-.42 1.269-.945.543-.525.978-1.085.978-1.225 0-.245.961-.28 9.063-.28s9.063.035 9.063.28Z"/><path d="M20.316 37.069c-.124.053-3.674 1.001-7.863 2.11-5.804 1.54-7.72 2.112-8.005 2.398-.39.376-.39.412-.444 10.645-.017 6.387.018 10.43.125 10.717.106.25.355.59.585.733C5.07 63.887 22.055 67 22.943 67c.426 0 15.832-4.08 16.276-4.312.213-.107.48-.393.586-.644.142-.304.195-3.56.195-10.699V41.076l-.408-.483c-.408-.465-.728-.537-9.372-2.058-8.928-1.574-9.442-1.645-9.904-1.466Zm6.55 3.792c4.685.823 4.845.877 4.135 1.074-.408.107-2.396.644-4.42 1.18l-3.691.967-5.307-.913c-2.929-.519-5.201-.966-5.077-1.02 1.385-.483 8.697-2.29 9.035-2.218.248.036 2.644.465 5.325.93Zm10.24 5.135c-.035.036-2.892.823-6.353 1.735l-6.284 1.664-.053-1.324c-.035-.733-.035-1.36 0-1.377.036-.036 2.893-.805 6.354-1.736l6.301-1.663.054 1.323c.035.716.017 1.342-.018 1.378Zm-22.7-.483c3.833.68 7.01 1.27 7.064 1.324.053.036.07.68.035 1.413l-.053 1.306-7.277-1.252-7.278-1.27-.053-1.378c-.053-1.234-.018-1.377.266-1.377.178 0 3.462.554 7.295 1.234Zm22.7 14.814c-.035.035-2.662.751-5.82 1.574-3.16.841-6.018 1.61-6.32 1.7l-.585.143V52.383l6.354-1.682 6.336-1.681.054 5.617c.017 3.096.017 5.654-.018 5.69Zm-23.056-9.16c3.675.644 6.87 1.216 7.1 1.252l.39.09V63.78h-.39c-.23 0-3.514-.555-7.33-1.217l-6.923-1.217-.053-5.671c-.035-5.081-.018-5.671.249-5.671.142 0 3.283.518 6.957 1.163Z"/><path d="M68.959 43.445c-.377.356-.449.605-.449 1.406v.979l-6.337.053-6.338.054-1.346.658c-1.221.605-1.796 1.121-7.361 6.674-5.584 5.553-6.068 6.087-6.427 7.048-.808 2.19-.323 4.485 1.31 6.105.52.498 1.221 1.014 1.598 1.121.754.25.808.374.341.783-.287.267-1.58.303-13.052.338l-12.746.054-.898.427c-1.131.57-2.352 1.762-2.837 2.83-.556 1.174-.556 3.524 0 4.698.485 1.068 1.688 2.26 2.837 2.812l.898.445 13.464.054c14.776.053 14.973.035 17.523-1.015.646-.267 2.908-1.655 5.026-3.079a2702.52 2702.52 0 0 0 9.103-6.087l5.242-3.506v.73c0 .534.108.836.449 1.157l.43.445h9.731l.431-.445.449-.427V43.872l-.449-.427-.43-.445H69.39l-.431.445Zm8.168 12.37v9.966h-5.745V45.848h5.746v9.966Zm-8.617-.036v7.083l-9.551 6.39c-5.242 3.524-9.784 6.55-10.09 6.71-.305.16-1.077.48-1.723.711l-1.167.41h-13.68c-13.537 0-13.68 0-14.165-.374-.952-.694-1.24-1.264-1.24-2.385 0-1.121.288-1.69 1.24-2.385.484-.374.718-.374 13.626-.463 7.235-.053 13.178-.106 13.213-.142.252-.125 11.455-11.23 11.634-11.515.557-.908-.126-2.047-1.22-2.047-.521 0-1.006.41-4.184 3.542-3.86 3.79-4.344 4.111-5.745 3.862-.736-.142-1.615-.819-1.992-1.548-.342-.641-.342-1.816-.019-2.439.144-.267 2.909-3.096 6.158-6.282 4.381-4.325 6.05-5.838 6.517-5.98.377-.125 2.927-.196 6.517-.214l5.871-.018v7.084Z"/><path d="M73.445 50.469C72.5 51.388 73.162 53 74.486 53c.776 0 1.514-.731 1.514-1.5s-.738-1.5-1.514-1.5c-.36 0-.757.169-1.04.469Z"/>
+		</symbol>
+		<symbol id="icon-phone" viewBox="0 0 24 24">
+			<path d="M14.15 0v1.516c4.596 0 8.335 3.74 8.335 8.337H24C24 4.42 19.581 0 14.15 0ZM6.31 2.278a1.78 1.78 0 0 0-1.118.39l-.037.03-2.383 2.46.05-.048a2.391 2.391 0 0 0-.667 2.654c.639 1.842 2.265 5.403 5.477 8.61 3.217 3.223 6.814 4.782 8.594 5.477l.018.006.018.006a2.716 2.716 0 0 0 2.626-.522l.023-.019 2.367-2.368c.629-.63.629-1.731 0-2.36l-3.104-3.109c-.63-.63-1.732-.63-2.362 0l-1.504 1.504c-.537-.257-1.862-.923-3.121-2.123-1.241-1.186-1.875-2.555-2.105-3.084l1.516-1.516c.664-.665.702-1.807-.064-2.418l.069.064L7.464 2.7l-.036-.03a1.78 1.78 0 0 0-1.119-.39Zm7.842.754v1.515a5.31 5.31 0 0 1 5.303 5.306h1.515c0-3.76-3.058-6.821-6.818-6.821Zm-7.84.758a.26.26 0 0 1 .16.06l3.08 3.156.038.03c-.01-.007.029.066-.064.158l-2.24 2.242.173.458s.855 2.325 2.682 4.069c1.798 1.714 4.014 2.651 4.014 2.651l.472.202 2.256-2.258c.128-.127.092-.127.22 0l3.104 3.109c.128.129.128.086 0 .216l-2.309 2.31c-.351.298-.714.376-1.151.231-1.713-.67-5.066-2.137-8.044-5.12-2.998-2.996-4.553-6.4-5.123-8.05l-.003-.008-.004-.011c-.115-.303-.03-.744.238-.975l.025-.023L6.15 3.85a.267.267 0 0 1 .162-.06Zm7.84 2.273V7.58a2.276 2.276 0 0 1 2.273 2.274h1.515c0-2.09-1.7-3.79-3.788-3.79Z" stroke="none" />
+		</symbol>
+		<symbol id="icon-letter" viewBox="0 0 24 24">
+			<path d="m16.485 12.034 6.15-5.383v10.704l-6.15-5.321Zm-7.927.911 2.16 1.889c.34.29.781.465 1.264.465h.03a1.95 1.95 0 0 0 1.27-.468l-.003.002 2.16-1.889 6.566 5.68H1.995l6.563-5.679Zm-6.572-7.57h20.03l-9.62 8.416a.609.609 0 0 1-.38.133h-.028a.607.607 0 0 1-.38-.134v.001L1.986 5.375Zm-.62 1.275 6.15 5.383-6.15 5.318v-10.7Zm21.6-2.459A1.83 1.83 0 0 0 22.145 4H1.859c-.29 0-.576.068-.835.198l.011-.005a1.86 1.86 0 0 0-.755.69 1.88 1.88 0 0 0-.28.985v12.26c0 .497.196.972.545 1.323.348.351.82.549 1.313.549h20.284c.493 0 .965-.198 1.313-.549A1.88 1.88 0 0 0 24 18.128V5.868c0-.732-.419-1.366-1.029-1.672l-.011-.005h.006Z" stroke="none" />
+		</symbol>
+		<symbol id="icon-clock" fill="none" viewBox="0 0 24 24">
+			<path d="M22.324 13.676c.926-5.702-2.946-11.075-8.648-12C7.974.75 2.6 4.622 1.676 10.324c-.926 5.702 2.946 11.074 8.648 12 5.702.926 11.075-2.946 12-8.648Z"/><path d="M12 20.63a8.63 8.63 0 1 0 0-17.26 8.63 8.63 0 0 0 0 17.26Z"/><path d="M12 6.114v5.028"/><path d="M12 3.37v1.714"/><path d="M3.37 12h1.714"/><path d="M12 20.63v-1.716"/><path d="M20.63 12h-1.716"/><path d="m6.2 6.2.607.606"/><path d="m6.2 17.799.607-.607"/><path d="m17.8 17.799-.608-.607"/><path d="m17.8 6.2-.608.606"/><path d="m15.83 15.713-3.216-3.117"/><path d="M12 12.858a.858.858 0 1 0 0-1.715.858.858 0 0 0 0 1.715Z"/>
+		</symbol>
+		<symbol id="icon-location" viewBox="0 0 24 24">
+			<path d="m16.539 11.738-.012.03.01-.027.002-.003Z" stroke="none"/><path d="M12 0C8.046 0 4.8 3.235 4.8 7.181c0 1.53.49 2.955 1.315 4.122l-.03-.046 4.61 7.967.023.031c.186.242.37.438.592.585.223.147.508.24.787.212.56-.056.885-.443 1.185-.85l.019-.025 5.081-8.648.004-.007c.122-.22.21-.441.286-.656A7.098 7.098 0 0 0 19.2 7.18C19.2 3.235 15.955 0 12 0Zm0 1.2c3.301 0 6 2.692 6 5.981 0 .768-.15 1.53-.442 2.24l-.006.015-.005.015a3.15 3.15 0 0 1-.211.49l-5.03 8.56c-.223.293-.378.362-.328.357.025-.002.05.018-.006-.019a1.558 1.558 0 0 1-.287-.299l-4.574-7.908-.016-.022A5.912 5.912 0 0 1 6 7.18C6 3.893 8.7 1.2 12 1.2Zm0 1.884a4.098 4.098 0 1 0 0 8.195 4.098 4.098 0 1 0 0-8.195Zm0 1.2c1.636 0 2.907 1.268 2.907 2.897 0 1.63-1.27 2.898-2.907 2.898-1.636 0-2.907-1.27-2.907-2.898 0-1.629 1.271-2.897 2.907-2.897Z" stroke="none"/><path d="M8.162 16.573c-3.39.48-5.762 1.625-5.762 3.312C2.4 22.158 6.362 24 12 24c5.639 0 9.6-1.842 9.6-4.115 0-1.687-2.37-2.833-5.76-3.312l-.47.8c2.555.354 4.31 1.1 4.31 1.964 0 1.212-3.438 2.194-7.68 2.194-4.241 0-7.68-.982-7.68-2.194 0-.862 1.744-1.606 4.307-1.962l-.465-.802Z" stroke="none"/>
+		</symbol>
+		<symbol id="icon-nav-arrow" viewBox="0 0 60 60">
+			<path d="M17.646 30.354a.5.5 0 0 1 0-.708l3.182-3.181a.5.5 0 1 1 .707.707L18.707 30l2.828 2.828a.5.5 0 1 1-.707.707l-3.182-3.181ZM42 30.5H18v-1h24v1Z" />
+		</symbol>
+		<symbol id="icon-fav" viewBox="0 0 24 24">
+			<path d="M19.636 6.372a4.666 4.666 0 0 0-6.582-.008l-1.051.976-1.052-.98a4.66 4.66 0 1 0-6.581 6.6l7.179 7.285a.644.644 0 0 0 .916 0l7.171-7.285a4.66 4.66 0 0 0 0-6.588Zm-.912 5.685-6.721 6.817-6.725-6.823a3.375 3.375 0 1 1 4.772-4.773l.016.016 1.499 1.394a.643.643 0 0 0 .876 0l1.498-1.394.016-.016a3.375 3.375 0 0 1 4.77 4.776l-.001.003Z"/>
+		</symbol>
+		<symbol id="icon-delete" viewBox="0 0 24 24">
+			<path d="M8.738.042c-.446.113-.915.502-1.111.933-.094.202-.104.31-.118 1.214l-.014.994-2.1.014-2.1.014-.225.14c-.154.099-.267.22-.37.399l-.145.258V6.539l.145.258c.103.178.216.3.37.398.207.127.268.14.713.155l.483.019v7.533c0 5.221.014 7.621.051 7.814.094.525.356.871.853 1.134l.244.127h13.172l.234-.118c.282-.136.59-.436.722-.693a2.11 2.11 0 0 0 .145-.483c.029-.197.047-2.864.047-7.81V7.37l.483-.019c.446-.014.506-.028.713-.155.154-.098.267-.22.37-.398l.145-.258V4.008L21.3 3.75a1.088 1.088 0 0 0-.37-.398l-.225-.141-2.1-.014-2.1-.014-.014-.994c-.014-.905-.024-1.012-.118-1.214-.14-.31-.492-.67-.806-.82l-.262-.132-3.211-.009C10.327.01 8.817.024 8.738.042Zm6.356 1.364c.089.09.094.155.094.938v.844H8.811v-.844c0-.783.005-.849.094-.938.094-.093.155-.093 3.094-.093 2.94 0 3 0 3.094.093Zm5.015 3.867v.774H3.89V4.5h16.22v.773Zm-1.734 9.694c0 5.855-.014 7.622-.056 7.664-.08.08-12.558.08-12.638 0-.042-.042-.056-1.81-.056-7.664V7.36h12.75v7.608Z"/><path d="M7.838 9.558a.945.945 0 0 0-.244.249c-.094.15-.094.248-.094 5.334 0 4.926.005 5.189.084 5.339.254.473.952.427 1.163-.075.056-.127.066-1.04.066-5.273 0-4.786-.005-5.133-.085-5.283-.169-.338-.59-.474-.89-.29Z"/><path d="M11.719 9.548a.827.827 0 0 0-.267.244l-.108.16v5.175c0 5.615-.014 5.292.258 5.545.103.098.173.117.398.117.225 0 .295-.019.399-.117.271-.253.257.07.257-5.54 0-5.044-.004-5.176-.093-5.321-.183-.305-.549-.417-.844-.263Z"/><path d="M15.567 9.549a.904.904 0 0 0-.258.215c-.098.132-.098.16-.112 5.32-.01 4.871-.005 5.2.07 5.354.24.469.905.497 1.149.042.08-.15.084-.413.084-5.34 0-5.052-.005-5.183-.094-5.329-.182-.304-.548-.417-.839-.262Z"/>
+		</symbol>
+		<symbol id="icon-search" viewBox="0 0 24 24">
+			<path d="m21.75 20.69-5.663-5.664a8.264 8.264 0 1 0-1.061 1.06l5.664 5.665 1.06-1.061ZM3 9.75a6.75 6.75 0 1 1 6.75 6.75A6.757 6.757 0 0 1 3 9.75Z" />
+		</symbol>
+		<symbol id="icon-cart" viewBox="0 0 24 24">
+			<path d="M3.24 2.943c-.235.118-.348.296-.367.582-.014.192.005.28.075.398.193.305.244.314 1.407.342l1.054.024 1.022 4.078c.558 2.24 1.022 4.092 1.022 4.11 0 .024-.037.038-.084.038-.047 0-.235.075-.427.164-.628.3-1.064.891-1.186 1.599-.187 1.134.633 2.264 1.79 2.456.207.033 2.1.047 5.963.038 5.63-.014 5.658-.014 5.785-.113.206-.15.31-.319.333-.548a.706.706 0 0 0-.37-.694c-.17-.085-.371-.09-5.832-.09-5.564 0-5.662 0-5.855-.093-.497-.244-.525-.886-.051-1.237.126-.099.164-.099 5.901-.122 5.485-.024 5.78-.028 5.902-.108a.786.786 0 0 0 .197-.197c.122-.188 2.053-7.988 2.03-8.19-.029-.196-.174-.43-.329-.52-.08-.042-1.64-.06-7.157-.08l-7.055-.022-.197-.77c-.3-1.176-.216-1.129-2.04-1.129-1.213 0-1.391.01-1.532.084Zm16.682 3.268c0 .065-1.51 6.06-1.547 6.154l-.047.103-4.697-.009-4.701-.014-.778-3.094c-.427-1.701-.77-3.108-.76-3.131.024-.037 12.53-.047 12.53-.01Z"/><path d="M8.095 18.234c-.515.09-1.045.497-1.265.975-.085.178-.103.305-.103.69 0 .445.009.482.159.764.192.351.44.585.797.754.22.103.328.122.684.122.356 0 .464-.019.685-.122a1.61 1.61 0 0 0 .801-.783c.14-.286.155-.351.155-.759 0-.394-.014-.478-.131-.708-.216-.445-.713-.839-1.135-.91-.356-.055-.422-.06-.647-.023Zm.436 1.5c.052.052.094.108.094.132 0 .093-.16.243-.258.243s-.258-.15-.258-.243c0-.066.183-.225.258-.225.038 0 .113.042.164.093Z"/><path d="M17.682 18.24a1.674 1.674 0 0 0-.394 3.173c.23.107.328.126.689.126.361 0 .46-.019.69-.127.341-.159.641-.459.815-.815.122-.244.136-.328.136-.699 0-.384-.014-.454-.155-.735a1.658 1.658 0 0 0-1.781-.924Zm.417 1.448c.103.056.122.276.033.365-.033.033-.117.056-.188.056-.187 0-.272-.182-.16-.351.085-.127.17-.145.315-.07Z"/>
+		</symbol>
+		<symbol id="icon-" viewBox="0 0 20 20">
+			
+		</symbol>
+		<symbol id="icon-" viewBox="0 0 20 20">
+			
+		</symbol>
+		<symbol id="icon-" viewBox="0 0 20 20">
+			
+		</symbol>
+		<symbol id="icon-" viewBox="0 0 20 20">
+			
+		</symbol>
+		<symbol id="icon-" viewBox="0 0 20 20">
+			
+		</symbol>
+	</svg>
+	<script src="./js/app.js?t=20230710174115"></script>
+</body>
+</html>

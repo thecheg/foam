@@ -1,0 +1,10 @@
+.app--fixed {
+	overflow:hidden!important;
+
+	&,
+	& .header,
+	& .fixed,
+	& .menu {
+		padding-right:var(--sbW);
+	}
+}

@@ -1,0 +1,23 @@
+:root {
+	--cont-w: 1290px;
+	--cont-p: 20px;
+	
+	--section-pad:60px;
+
+	--header-t:60px;
+	--header-m:92px;
+
+	--fixed:70px;
+	--fixed-bg:#076998;
+	--fixed-btn-c:#fff;
+	--fixed-btn-i:#fff;
+
+	--fixed-s:100px;
+	--fixed-s-bg:#fff;
+	--fixed-s-btn-c:#000;
+	--fixed-s-btn-i:#229BD5;
+
+	--fixed-p:calc(var(--header-t) + var(--header-m) + var(--fixed));
+
+	--search:88px;
+}

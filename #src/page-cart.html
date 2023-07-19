@@ -1,0 +1,165 @@
+@@include('@@webRoot/template/_head.html',{
+	'pageTitle': 'Корзина',
+	'pageKeywords': '',
+	'pageDescription': ''
+})
+</head>
+<body class="app">
+@@include('@@webRoot/template/_header.html')
+	<main class="app__content">
+		<section class="section section--fh page cart">
+			<header class="head">
+				<div class="cart__head">
+					<h2 class="head__title">
+						Корзина
+					</h2>
+					<div class="ui-text cart__head-added">
+						2 товара
+					</div>
+				</div>
+			</header>
+			<div class="container">
+				<div class="ui-grid cart__block">
+					<div class="ui-grid__col cart__main">
+						<div class="cart__item ui-cart ui-cart--c">
+							<div class="ui-cart__img">
+								<img src="@@webRoot/images/card1.png" alt="" />
+							</div>
+							<div class="ui-cart__info">
+								<div class="ui-cart__art">
+									Артикул товара: DT-0301
+								</div>
+								<div class="ui-cart__name">
+									<a title="Бутылка с печатью Detail">Бутылка с печатью Detail</a>
+								</div>
+							</div>
+							<div class="ui-cart__quantity">
+								<div class="ui-quantity ui-quantity--c">
+									<div class="ui-quantity__ctrl" data-quantity="minus"></div>
+									<div class="ui-quantity__inp">
+										<input type="text" value="1" />
+									</div>
+									<div class="ui-quantity__ctrl" data-quantity="plus"></div>
+								</div>
+							</div>
+							<div class="ui-cart__price">
+								<div class="ui-cart__price-c">
+									130 ₽
+								</div>
+							</div>
+							<div class="ui-cart__delete ui-cart__delete--c">
+								<div class="ui-delete ui-tooltip" data-tooltip="Удалить товар" data-tooltip-x="right" data-tooltip-y="top">
+									<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-delete"></use></svg>
+								</div>
+							</div>
+						</div>
+						<div class="cart__item ui-cart ui-cart--c">
+							<div class="ui-cart__img">
+								<img src="@@webRoot/images/card1.png" alt="" />
+							</div>
+							<div class="ui-cart__info">
+								<div class="ui-cart__art">
+									Артикул товара: DT-0301
+								</div>
+								<div class="ui-cart__name">
+									<a title="Бутылка с печатью Detail">Бутылка с печатью Detail</a>
+								</div>
+							</div>
+							<div class="ui-cart__quantity">
+								<div class="ui-quantity ui-quantity--c">
+									<div class="ui-quantity__ctrl" data-quantity="minus"></div>
+									<div class="ui-quantity__inp">
+										<input type="text" value="1" />
+									</div>
+									<div class="ui-quantity__ctrl" data-quantity="plus"></div>
+								</div>
+							</div>
+							<div class="ui-cart__price">
+								<div class="ui-cart__price-o">
+									2 370 ₽
+								</div>
+								<div class="ui-cart__price-c">
+									1 970 ₽
+								</div>
+							</div>
+							<div class="ui-cart__delete ui-cart__delete--c">
+								<div class="ui-delete ui-tooltip" data-tooltip="Удалить товар" data-tooltip-x="right" data-tooltip-y="top">
+									<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-delete"></use></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui-grid__col cart__side">
+						<div class="cart__info">
+							<div class="cart__info-item">
+								<div class="cart__info-ttl">
+									Ваш заказ:
+								</div>
+								<div class="cart__info-weight">
+									<div class="cart__info-weight-i">
+										2 товара
+									</div>
+									<div class="cart__info-weight-i">
+										980 гр
+									</div>
+								</div>
+							</div>
+							<div class="cart__info-item">
+								<div class="cart__info-total">
+									Товары (2)
+								</div>
+								<div class="cart__info-total text-nowrap">
+									2 100 ₽
+								</div>
+							</div>
+							<div class="cart__info-item">
+								<div class="cart__info-total">
+									Скидка
+								</div>
+								<div class="cart__info-total text-nowrap" style="color:#EE555E;">
+									-400 ₽ 
+								</div>
+							</div>
+							<div class="cart__info-div"></div>
+							<div class="cart__info-item">
+								<div class="cart__info-ttl">
+									Итого
+								</div>
+								<div class="cart__info-total cart__info-total--t">
+									2 100 ₽
+								</div>
+								<div class="cart__info-text">
+									без учета стоимости доставки
+								</div>
+								<div class="cart__info-text cart__info-text--m">
+									Доставка недоступна. Минимальная сумма заказа для доставки 1000 ₽. Выберите товары еще на 870 ₽ чтобы сделать заказ
+								</div>
+							</div>
+							<div class="cart__info-item">
+								<div class="cart__info-btn">
+									<a class="ui-btn ui-btn--fw ui-btn--blue">
+										<span class="ui-btn__text">
+											Перейти к оформлению
+										</span>
+									</a>
+								</div>
+								<div class="cart__info-text">
+									Доступные способы доставки и оплаты можно выбрать при оформлении заказа
+								</div>
+							</div>
+						</div>
+@@include('@@webRoot/template/_ui-ask.html')
+					</div>
+				</div>
+			</div>
+		</section>
+@@include('@@webRoot/template/_related.html', {
+	'ttl': 'Рекомендуем'
+})
+@@include('@@webRoot/template/_ask.html')
+	</main>
+@@include('@@webRoot/template/_footer.html')
+@@include('@@webRoot/template/_popups.html')
+@@include('@@webRoot/template/_foot.html')
+</body>
+</html>

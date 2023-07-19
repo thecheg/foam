@@ -1,0 +1,52 @@
+@@include('@@webRoot/template/_head.html',{
+	'pageTitle': 'Корзина',
+	'pageKeywords': '',
+	'pageDescription': ''
+})
+</head>
+<body class="app">
+@@include('@@webRoot/template/_header.html')
+	<main class="app__content">
+		<section class="section section--fh page cart">
+			<header class="head">
+				<h2 class="head__title">
+					Корзина
+				</h2>
+			</header>
+			<div class="container">
+				<div class="cart__empty">
+					<div class="cart__empty-in">
+						<div class="head head--in-cont">
+							<div class="head__title">
+								Ваша корзина <span class="display-ib">пока пуста</span>
+							</div>
+							<div class="ui-text cart__empty-subttl">
+								Посмотрите предложения на главной странице или в каталоге
+							</div>
+						</div>
+						<div class="cart__empty-btns">
+							<a class="ui-btn ui-btn--blue cart__empty-btns-item">
+								<span class="ui-btn__text">
+									В каталог
+								</span>
+							</a>
+							<a class="ui-btn ui-btn--border-blue cart__empty-btns-item">
+								<span class="ui-btn__text">
+									На главную
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+@@include('@@webRoot/template/_related.html', {
+	'ttl': 'Рекомендуем'
+})
+@@include('@@webRoot/template/_ask.html')
+	</main>
+@@include('@@webRoot/template/_footer.html')
+@@include('@@webRoot/template/_popups.html')
+@@include('@@webRoot/template/_foot.html')
+</body>
+</html>

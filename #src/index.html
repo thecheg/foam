@@ -1,0 +1,861 @@
+@@include('@@webRoot/template/_head.html',{
+	'pageTitle': '',
+	'pageKeywords': '',
+	'pageDescription': ''
+})
+</head>
+<body class="app">
+@@include('@@webRoot/template/_header.html')
+	<main class="app__content">
+		<section class="section category">
+			<div class="container">
+				<div class="ui-grid category__list">
+					<div class="ui-grid__col category__col">
+						@@include('@@webRoot/template/_ui-category.html', {
+							'tag': 'a',
+							'img': 'cat1.png',
+							'name': 'Пенные насадки и комплектующие',
+							'mod': 'ui-category--s1',
+							'btnMod': 'catalog__category-btn'
+						})
+					</div>
+					<div class="ui-grid__col category__col">
+						@@include('@@webRoot/template/_ui-category.html', {
+							'tag': 'a',
+							'img': 'cat2.png',
+							'name': 'Шланги высокого давления для минимоек и АВД',
+							'mod': 'ui-category--s1',
+							'btnMod': 'catalog__category-btn'
+						})
+					</div>
+					<div class="ui-grid__col category__col">
+						@@include('@@webRoot/template/_ui-category.html', {
+							'tag': 'a',
+							'img': 'cat2.png',
+							'name': 'Шланги прочистки канализации для минимоек и АВД',
+							'mod': 'ui-category--s1',
+							'btnMod': 'catalog__category-btn'
+						})
+					</div>
+					<div class="ui-grid__col category__col">
+						@@include('@@webRoot/template/_ui-category.html', {
+							'tag': 'a',
+							'img': 'cat1.png',
+							'name': 'Пенные насадки и комплектующие',
+							'mod': 'ui-category--s1',
+							'btnMod': 'catalog__category-btn'
+						})
+					</div>
+					<div class="ui-grid__col category__col">
+						@@include('@@webRoot/template/_ui-category.html', {
+							'tag': 'a',
+							'img': 'cat2.png',
+							'name': 'Шланги высокого давления для минимоек и АВД',
+							'mod': 'ui-category--s1',
+							'btnMod': 'catalog__category-btn'
+						})
+					</div>
+					<div class="ui-grid__col category__col">
+						@@include('@@webRoot/template/_ui-category.html', {
+							'tag': 'a',
+							'img': 'cat2.png',
+							'name': 'Шланги прочистки канализации для минимоек и АВД',
+							'mod': 'ui-category--s1',
+							'btnMod': 'catalog__category-btn'
+						})
+					</div>
+					<div class="ui-grid__col category__col">
+						@@include('@@webRoot/template/_ui-category.html', {
+							'tag': 'a',
+							'img': 'cat1.png',
+							'name': 'Пенные насадки и комплектующие',
+							'mod': 'ui-category--s1',
+							'btnMod': 'catalog__category-btn'
+						})
+					</div>
+					<div class="ui-grid__col category__col">
+						@@include('@@webRoot/template/_ui-category.html', {
+							'tag': 'a',
+							'img': 'cat2.png',
+							'name': 'Шланги высокого давления для минимоек и АВД',
+							'mod': 'ui-category--s1',
+							'btnMod': 'catalog__category-btn'
+						})
+					</div>
+					<div class="ui-grid__col category__col">
+						@@include('@@webRoot/template/_ui-category.html', {
+							'tag': 'a',
+							'img': 'cat2.png',
+							'name': 'Шланги прочистки канализации для минимоек и АВД',
+							'mod': 'ui-category--s1',
+							'btnMod': 'catalog__category-btn'
+						})
+					</div>
+				</div>
+				<div class="category__more">
+					<button class="ui-btn ui-btn--border-blue" type="button">
+						<span class="ui-btn__text">
+							Показать еще
+						</span>
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="section catalog">
+			<header class="head">
+				<div class="ui-grid head__row">
+					<div class="ui-grid__col ui-grid__col--1of3 head__col">
+						<h2 class="head__title">
+							Товары
+						</h2>
+					</div>
+					<div class="ui-grid__col ui-grid__col--2of3 head__col">
+						<div class="ui-text head__subtitle">
+							<p>
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non
+							</p>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="container">
+				<div class="catalog__ind">
+					<div class="catalog__ind-col catalog__ind-col--t">
+						<div class="catalog__ind-list ui-tabs" data-tabs="catalog">
+							<a class="catalog__ind-item ui-tabs__item" data-tab="catalog1">
+								Популярные товары
+							</a>
+							<a class="catalog__ind-item ui-tabs__item" data-tab="catalog2">
+								Новинки
+							</a>
+							<a class="catalog__ind-item ui-tabs__item" data-tab="catalog3">
+								Товары со скидкой
+							</a>
+						</div>
+					</div>
+					<div class="catalog__ind-col">
+						<a class="ui-arrowbtn ui-arrowbtn--grey catalog__ind-btn">
+							<span class="ui-arrowbtn__text">
+								Перейти в каталог
+							</span>
+							<span class="ui-arrowbtn__arr"></span>
+						</a>
+					</div>
+				</div>
+				<div class="ui-tabs-content" data-tabs="catalog" data-tab="catalog1">
+					<div class="ui-grid catalog__main">
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': 'active',
+								'favText': 'Удалить из избранного',
+								'badges': ''
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': ''
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'priceOld': 150,
+								'isFav': '',
+								'badges': ''
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#322DEF;">Скидка</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#10A958;">Новинка</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#FF7A29;">Хит продаж</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#10A958;">Новинка</span><span style="--badge-color:#fff;--badge-bg:#FF7A29;">Хит продаж</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': 'active',
+								'favText': 'Удалить из избранного',
+								'badges': ''
+							})
+						</div>
+					</div>
+					<div class="catalog__more">
+						<button class="ui-btn ui-btn--border-blue" type="button">
+							<span class="ui-btn__text">
+								Показать еще
+							</span>
+						</button>
+					</div>
+				</div>
+				<div class="ui-tabs-content" data-tabs="catalog" data-tab="catalog2">
+					<div class="ui-grid catalog__main">
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': 'active',
+								'favText': 'Удалить из избранного',
+								'badges': ''
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': ''
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'priceOld': 150,
+								'isFav': '',
+								'badges': ''
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#322DEF;">Скидка</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#10A958;">Новинка</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#FF7A29;">Хит продаж</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#10A958;">Новинка</span><span style="--badge-color:#fff;--badge-bg:#FF7A29;">Хит продаж</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': 'active',
+								'favText': 'Удалить из избранного',
+								'badges': ''
+							})
+						</div>
+					</div>
+					<div class="catalog__more">
+						<button class="ui-btn ui-btn--border-blue" type="button">
+							<span class="ui-btn__text">
+								Показать еще
+							</span>
+						</button>
+					</div>
+				</div>
+				<div class="ui-tabs-content" data-tabs="catalog" data-tab="catalog3">
+					<div class="ui-grid catalog__main">
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': 'active',
+								'favText': 'Удалить из избранного',
+								'badges': ''
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': ''
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'priceOld': 150,
+								'isFav': '',
+								'badges': ''
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#322DEF;">Скидка</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#10A958;">Новинка</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#FF7A29;">Хит продаж</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': '',
+								'badges': '<span style="--badge-color:#fff;--badge-bg:#10A958;">Новинка</span><span style="--badge-color:#fff;--badge-bg:#FF7A29;">Хит продаж</span>'
+							})
+						</div>
+						<div class="ui-grid__col catalog__main-col">
+							@@include('@@webRoot/template/_ui-card.html', {
+								'tag': 'div',
+								'img': 'card1.png',
+								'art': 'DT-0301',
+								'name': 'Бутылка с печатью Detail',
+								'price': 130,
+								'isFav': 'active',
+								'favText': 'Удалить из избранного',
+								'badges': ''
+							})
+						</div>
+					</div>
+					<div class="catalog__more">
+						<button class="ui-btn ui-btn--border-blue" type="button">
+							<span class="ui-btn__text">
+								Показать еще
+							</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section brands">
+			<header class="head">
+				<div class="ui-grid head__row">
+					<div class="ui-grid__col ui-grid__col--1of3 head__col">
+						<h2 class="head__title">
+							Бренды
+						</h2>
+					</div>
+					<div class="ui-grid__col ui-grid__col--2of3 head__col">
+						<div class="ui-text head__subtitle">
+							<p>
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non
+							</p>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="container ui-carousel" data-carousel='{
+				"slidesPerView": 6,
+				"grid": {
+					"rows": 2
+				},
+				"loop": false,
+				"breakpoints": {
+					"1": {
+						"slidesPerView": 2
+					},
+					"600": {
+						"slidesPerView": 3
+					},
+					"768": {
+						"slidesPerView": 4
+					},
+					"1024": {
+						"slidesPerView": 5
+					},
+					"1280": {
+						"slidesPerView": 6
+					}
+				}
+			}'>
+				<div class="brands__block ui-carousel__block">
+					<div class="ui-carousel__slider brands__slider brands__list">
+						<div class="swiper-wrapper">
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/1.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/2.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/5.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/6.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/3.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/4.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/5.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/3.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/4.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/1.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/2.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/3.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/6.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/1.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/2.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/4.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/5.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/6.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/1.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/2.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/3.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/4.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/5.jpg" alt="" />
+							</a>
+							<a class="ui-carousel__item swiper-slide ui-brand ui-brand--t1 brands__item">
+								<img src="@@webRoot/images/brands/6.jpg" alt="" />
+							</a>
+						</div>
+					</div>
+					<div class="ui-carousel__nav ui-nav">
+						<button class="ui-nav__item ui-nav__item--p" type="button">
+							<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-nav-arrow"></use></svg>
+						</button>
+						<button class="ui-nav__item ui-nav__item--n" type="button">
+							<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-nav-arrow"></use></svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section blog">
+			<header class="head">
+				<h2 class="head__title">
+					Полезное для&nbsp;Вас
+				</h2>
+			</header>
+			<div class="container">
+				<div class="ui-grid blog__list">
+					<div class="ui-grid__col blog__col">
+						<a class="ui-arrowbtn-c blog__item">
+							<div class="blog__item-img">
+								<img src="@@webRoot/images/blog1.jpg" alt="" />
+							</div>
+							<div class="blog__item-ttl">
+								Пенная насадка для минимойки: особенности работы и способ применения
+							</div>
+							<div class="blog__item-date">
+								20.04.2023
+							</div>
+							<div class="ui-text blog__item-text">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
+							</div>
+							<div class="blog__item-more">
+								<div class="ui-arrowbtn ui-arrowbtn--black blog__item-btn">
+									<span class="ui-arrowbtn__text">
+										Подробнее
+									</span>
+									<span class="ui-arrowbtn__arr"></span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="ui-grid__col blog__col">
+						<a class="ui-arrowbtn-c blog__item">
+							<div class="blog__item-img">
+								<img src="@@webRoot/images/blog1.jpg" alt="" />
+							</div>
+							<div class="blog__item-ttl">
+								Шланг для прочистки канализации: виды и особенности выбора
+							</div>
+							<div class="blog__item-date">
+								20.04.2023
+							</div>
+							<div class="ui-text blog__item-text">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
+							</div>
+							<div class="blog__item-more">
+								<div class="ui-arrowbtn ui-arrowbtn--black blog__item-btn">
+									<span class="ui-arrowbtn__text">
+										Подробнее
+									</span>
+									<span class="ui-arrowbtn__arr"></span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="ui-grid__col blog__col">
+						<a class="ui-arrowbtn-c blog__item">
+							<div class="blog__item-img">
+								<img src="@@webRoot/images/blog1.jpg" alt="" />
+							</div>
+							<div class="blog__item-ttl">
+								Преимущества и характеристики шлангов высокого давления для минимоек
+							</div>
+							<div class="blog__item-date">
+								20.04.2023
+							</div>
+							<div class="ui-text blog__item-text">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
+							</div>
+							<div class="blog__item-more">
+								<div class="ui-arrowbtn ui-arrowbtn--black blog__item-btn">
+									<span class="ui-arrowbtn__text">
+										Подробнее
+									</span>
+									<span class="ui-arrowbtn__arr"></span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="ui-grid__col blog__col">
+						<a class="ui-arrowbtn-c blog__item">
+							<div class="blog__item-img">
+								<img src="@@webRoot/images/blog1.jpg" alt="" />
+							</div>
+							<div class="blog__item-ttl">
+								Преимущества и характеристики шлангов высокого давления для минимоек
+							</div>
+							<div class="blog__item-date">
+								20.04.2023
+							</div>
+							<div class="ui-text blog__item-text">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
+							</div>
+							<div class="blog__item-more">
+								<div class="ui-arrowbtn ui-arrowbtn--black blog__item-btn">
+									<span class="ui-arrowbtn__text">
+										Подробнее
+									</span>
+									<span class="ui-arrowbtn__arr"></span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<header class="head">
+				<h2 class="head__title">
+					О компании
+				</h2>
+			</header>
+			<div class="container">
+				<div class="ui-grid about__block">
+					<div class="ui-grid__col about__col about__col--l">
+						<div class="ui-text about__text">
+							<p>
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
+							</p>
+							<p>
+								Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</p>
+							<p>
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</p>
+						</div>
+						<div class="about__more">
+							<a class="ui-arrowbtn ui-arrowbtn--black">
+								<span class="ui-arrowbtn__text">
+									Подробнее о&nbsp;компании
+								</span>
+								<span class="ui-arrowbtn__arr"></span>
+							</a>
+						</div>
+					</div>
+					<div class="ui-grid__col about__col about__col--r">
+						<div class="about__img">
+							<picture>
+								<source srcset="@@webRoot/images/about.webp" type="image/webp">
+								<source srcset="@@webRoot/images/about.jpg" type="image/jpeg">
+								<img src="@@webRoot/images/about.jpg" alt="" loading="lazy" />
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section features">
+			<div class="container">
+				<div class="ui-grid features__list">
+					<div class="ui-grid__col features__col">
+						<div class="features__item">
+							<div class="features__item-icon">
+								<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-feat1"></use></svg>
+							</div>
+							<div class="features__item-ttl">
+								Быстрая доставка
+							</div>
+							<div class="ui-text features__item-text">
+								1-3 дня по Центральному федеральному округу
+							</div>
+						</div>
+					</div>
+					<div class="ui-grid__col features__col">
+						<div class="features__item">
+							<div class="features__item-icon">
+								<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-feat2"></use></svg>
+							</div>
+							<div class="features__item-ttl">
+								Доставка по всей РФ
+							</div>
+							<div class="ui-text features__item-text">
+								Доставка в любой пункт самовывоза СДЭК
+							</div>
+						</div>
+					</div>
+					<div class="ui-grid__col features__col">
+						<div class="features__item">
+							<div class="features__item-icon">
+								<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-feat3"></use></svg>
+							</div>
+							<div class="features__item-ttl">
+								Оригинальная продукция
+							</div>
+							<div class="ui-text features__item-text">
+								Доставка в любой пункт самовывоза СДЭК
+							</div>
+						</div>
+					</div>
+					<div class="ui-grid__col features__col">
+						<div class="features__item">
+							<div class="features__item-icon">
+								<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-feat4"></use></svg>
+							</div>
+							<div class="features__item-ttl">
+								Гарантии
+							</div>
+							<div class="ui-text features__item-text">
+								Оплаты при получении, после осмотра товара
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<header class="head">
+				<div class="ui-grid head__row">
+					<div class="ui-grid__col ui-grid__col--1of3 head__col">
+						<h2 class="head__title">
+							Контакты
+						</h2>
+					</div>
+					<div class="ui-grid__col ui-grid__col--2of3 head__col">
+						<div class="ui-text head__subtitle">
+							<p>
+								Уточнить статус Вашего заказа, узнать условия сотрудничества и задать другие интересующие вопросы Вы можете любым удобным Вам способом.
+							</p>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="container">
+				<div class="ui-grid contacts__block">
+					<div class="ui-grid__col contacts__col contacts__col--l">
+						<div class="ui-grid contacts__list">
+							<div class="ui-grid__col contacts__list-item">
+								<div class="ui-contact">
+									<div class="ui-contact__icon">
+										<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg>
+									</div>
+									<div class="ui-contact__text">
+										<a href="tel:+7 (495) 128-34-04">+7 (495) 128-34-04</a>
+									</div>
+								</div>
+							</div>
+							<div class="ui-grid__col contacts__list-item">
+								<div class="ui-contact">
+									<div class="ui-contact__icon">
+										<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-letter"></use></svg>
+									</div>
+									<div class="ui-contact__text">
+										<a href="mailto:p_nasadka@mail.ru">p_nasadka@mail.ru</a>
+									</div>
+								</div>
+							</div>
+							<div class="ui-grid__col contacts__list-item">
+								<div class="ui-contact">
+									<div class="ui-contact__icon">
+										<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
+									</div>
+									<div class="ui-contact__text">
+										<p>
+											Режим работы:
+										</p>
+										<p>
+											Пн-Пт: c 09.00 - 19.00<br />
+											Сб-Вс: выходной
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui-grid__col contacts__col contacts__col--r">
+						@@include('@@webRoot/template/_contacts-form.html')
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+@@include('@@webRoot/template/_footer.html')
+@@include('@@webRoot/template/_popups.html')
+@@include('@@webRoot/template/_foot.html')
+</body>
+</html>
