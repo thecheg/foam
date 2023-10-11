@@ -179,6 +179,7 @@ window.app = {
 			speed: 500,
 			init: true,
 			slideActiveClass: 'active',
+			watchSlidesProgress: true,
 			navigation: {
 				nextEl: block.find('.ui-nav__item--n').get(0),
 				prevEl: block.find('.ui-nav__item--p').get(0),
@@ -195,36 +196,42 @@ window.app = {
 	 * Products
 	*/
 	product(block) {
-		let thumb = block.find('.product__thumbs'),
-			thumbS,
-			thumbOpts = {
-				loop: true,
-				init: true,
-				slidesPerView: 3,
-				spaceBetween: 20,
-				slideActiveClass: 'active',
-				slideDuplicateActiveClass: 'active-duplicate',
-				watchSlidesProgress: true,
-			};
+		let sliders = block.find('.product__left-slider');
 
-		thumbS = new Swiper(thumb.get(0), thumbOpts);
-
-		let img = block.find('.product__imgs'),
-			imgS,
-			imgOpts = {
-				loop: true,
-				init: true,
-				slidesPerView: 1,
-				spaceBetween: 0,
-				slideActiveClass: 'active',
-				slideDuplicateActiveClass: 'active-duplicate',
-				thumbs: {
-					swiper: thumbS,
-					slideThumbActiveClass: 'active'
-				},
-			};
-
-		imgS = new Swiper(img.get(0), imgOpts);
+		sliders.each(function() {
+			let slider = $(this),
+				thumb = slider.find('.product__thumbs'),
+					thumbS,
+					thumbOpts = {
+						loop: true,
+						init: true,
+						slidesPerView: 3,
+						spaceBetween: 20,
+						slideActiveClass: 'active',
+						slideDuplicateActiveClass: 'active-duplicate',
+						watchSlidesProgress: true,
+					};
+		
+				thumbS = new Swiper(thumb.get(0), thumbOpts);
+		
+				let img = slider.find('.product__imgs'),
+					imgS,
+					imgOpts = {
+						loop: true,
+						init: true,
+						slidesPerView: 1,
+						spaceBetween: 0,
+						slideActiveClass: 'active',
+						slideDuplicateActiveClass: 'active-duplicate',
+						watchSlidesProgress: true,
+						thumbs: {
+							swiper: thumbS,
+							slideThumbActiveClass: 'active'
+						},
+					};
+	
+			imgS = new Swiper(img.get(0), imgOpts);
+		});
 
 		let add = block.find('.add--f');
 		
@@ -462,7 +469,7 @@ window.app = {
 		});
 
 		Fancybox.bind('[data-fancybox]', {
-			// Your custom options
+			backFocus: false
 		});
 	}
 };
@@ -483,7 +490,7 @@ Fancybox.defaults.backFocus = false;
 	app.init();
 	app.header.init();
 
-	// app.popups.open('added');
+	// app.popups.open('oneclickbuy');
 
 	// * Menu binds
 	//app.menu.bind();

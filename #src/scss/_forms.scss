@@ -120,6 +120,12 @@ input[type='number'] {
 			--inp-border:#E2E2EB;
 			--inp-color:#191B1C;
 		}
+
+		&--white {
+			--inp-bg:#fff;
+			--inp-border:#fff;
+			--inp-color:#191B1C;
+		}
 	}
 
 	&-check {

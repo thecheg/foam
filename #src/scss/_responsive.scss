@@ -810,6 +810,10 @@
 			&__buy {
 				flex-wrap:wrap;
 			}
+
+			&__bot {
+				padding-top:10px;
+			}
 		}
 
 		&-crumbs {
@@ -1011,6 +1015,26 @@
 				&:not(:last-child) {
 					margin-bottom:4px;
 				}
+			}
+		}
+	}
+	
+	.request {
+		&__click {
+			flex-wrap:wrap;
+
+			&-left,
+			&-right {
+				width:100%;
+			}
+
+			&-img {
+				max-width:300px;
+				margin:0 auto;
+			}
+
+			&-ttl {
+				padding-bottom:0;
 			}
 		}
 	}
