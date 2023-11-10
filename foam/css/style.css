@@ -6692,7 +6692,8 @@ html.no-touch .footer__bot-links-item a:hover {
 
 	.request,
 	.product-pop,
-	.added {
+	.added,
+	.info {
 		border-radius: 0;
 	}
 
