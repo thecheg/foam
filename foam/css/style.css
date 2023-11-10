@@ -5522,6 +5522,22 @@ html.no-touch .brands__letters-item:hover {
 	width: 100%;
 }
 
+.info {
+	border-radius: 10px;
+	background: #fff;
+	max-width: 1200px;
+	padding: 40px 20px;
+}
+
+.info__head {
+	text-align: center;
+}
+
+.info__body {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+
 /* footer */
 
 .footer {
